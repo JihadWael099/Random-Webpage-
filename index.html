@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .container
+        {
+            width: 120px;
+            height: 100vh;
+            background-color: aqua;
+            color: black;
+        }
+        .container p{
+            padding: 5px;
+        }
+        .container p:hover{
+            background-color: blueviolet;
+        }
+        button{
+            background-color: blue;
+            color: black;
+            border:none;
+        }
+        button:hover
+        {
+            background-color: aquamarine;
+            cursor:pointer;
+        }
+        #close
+        {
+            position: absolute;
+            left: 125px;
+        }
+        .hide
+        {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <button clase ="hide" id="open">open</button>
+    <button id="close">close</button>
+    <div class="container">
+        <p>home</p>
+        <p>home</p>
+        <p>home</p>
+        <p>home</p>
+        <p>home</p>
+        <p>home</p>
+        <p>home</p>
+        <p>home</p>
+        <p>home</p>
+    
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
